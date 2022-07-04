@@ -1,0 +1,230 @@
+body{
+	    font:15px/1.5 Arial Helvetica sans serif; 
+      padding: 0;
+      margin: 0;
+      background-color: #f4f4f4;
+}
+
+/*Global*/
+.mls{
+				width: 80%;
+				margin: auto;
+				overflow: hidden;	
+}
+
+ul{
+	padding: 0;	
+	margin: 0;		
+}
+
+.button_1{
+				height: 38px;
+				background: cyan/*#ff15a1ff*/;
+				border: 0;
+				font-size: 17px;
+				padding-left:20px;
+				padding-right:20px;
+				color: rgb(20,5,50)/*#ffffff*//*#f4f4f4*/;
+}
+
+.dipblue{
+				padding: 15px;
+				background: rgb(20,5,50);
+				color: #ffffff;
+				margin-top: 10px;
+				margin-bottom: 10px;
+}
+
+/* header */
+header{
+			   background: rgb(20,5,50);
+			   color: #ffffff;
+			   padding-top: 35px;
+			   min-height: 70px;  
+			   border-bottom: cyan /*#ff15a1ff*/ 3px solid; 
+} 
+
+header a{
+				color: #ffffff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 16px;
+}
+
+header li{
+				float: left; 
+				display: inline;
+				padding: 0 20px 0 20px;
+}
+header #upbar{
+				float: left;
+}
+
+header #upbar h1{
+			margin: 0;
+			font-size: 45px;
+			float: left;
+}
+    
+header nav{
+				float: right;
+				margin-top: 10px; 
+}
+
+header .highlight, header .current a{
+     color: cyan/* #ff15a1ff */;
+    font-weight: bold;
+}
+   
+header a:hover{
+ 				color: #ff15a1ff/* cyan*/;
+ 				font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+				min-height:400px;
+				background:url("../Images/purple.jpg"); /* no repeat; */ 
+			  background-position: center;
+				background-size: cover;
+				text-align: center;
+				color: #ffffff;
+}
+
+#showcase h1{
+				margin-top: 100px;
+				font-size: 55px;
+				margin-bottom: 10px;
+}
+
+#showcase p{
+				font-size: 22px;
+} 
+
+/* newsletter */
+#newsletter{
+				padding: 15px;
+				color: #ffffff;
+				background: rgb(20,5,50);
+}
+#newsletter h1{
+				float: left;
+}
+
+#newsletter form{
+				float: right;
+				margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+				padding: 4px;
+				height: 25px;
+				width: 250px; 
+}
+
+/* boxes */
+#boxes{
+    margin-top: 30px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    width: 28%;
+    padding: 20px;
+}
+
+#boxes .box img{
+    width: 200px;
+}
+
+/* overview */
+article#overview {
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article#overview h1{
+    font-size: 35px; 
+    margin-top: 10px;
+}
+
+article#overview p{
+    list-style: none;
+    padding: 20px;
+    border: rgb(20,5,50)/*#cccccc*/ solid 1px;
+    margin-bottom: 5px;
+    background: rgb(20,5,50); /*#e6e6e6;*/
+    color: #ffffff;
+}
+
+/* courses */
+aside#courses{
+    float: right;
+    width: 65%; 
+}
+ 
+aside#courses .levels{
+     font-size: 35px; 
+    margin-top: 20px;
+}
+
+ul#students li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 5px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+/* Enquires */
+.heading{
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+ul#subjects li{
+    font-size: 17px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 65%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+aside#sidebar h3{
+    font-size: 20px;
+}
+
+ul#jobs li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 5px;
+    /* margin-bottom: 5px; */
+    background: #e6e6e6;
+    margin-top: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+article#universities{
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 15px;
+}
+ 
+/* Footer */
+footer{
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    color:rgb(20,5,50); /*#ffffff;*/
+    background-color: cyan;
+} 
